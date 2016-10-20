@@ -88,7 +88,7 @@ public class Communicator {
 					bw.write(name + ": zprava obdrzena..\n");
 					bw.flush();
 					
-					// "KLICOVE_SLOVO;jmeno_odesilatele;cilova_IP;cilovy_port;zprava"
+					// "KLICOVE_SLOVO zprava"
 					if (incomingMessage.contains("SEND"))
 					{
 						String [] parts = incomingMessage.split(";");

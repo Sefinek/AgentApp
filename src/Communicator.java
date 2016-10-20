@@ -11,6 +11,7 @@ import java.net.Socket;
 import java.util.Scanner;
 
 
+// tohle tu nechci
 public class Communicator {
 
 	private static Socket socket;

@@ -15,6 +15,7 @@ public class Communicator {
 
 	private static Socket socket;
 	
+	// TODO dodelat GUI a nove funkce
 	public static void main(String[] args) {
 		
 		String name = "name";
